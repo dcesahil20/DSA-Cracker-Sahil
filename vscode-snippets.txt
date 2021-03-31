@@ -1,0 +1,31 @@
+{
+	"basic skeleton of cpp": {
+		"prefix": "cppmain",
+		"body": [
+		  "#include <iostream>",
+		  "using namespace std;",
+		  "",
+		  "int main(){",
+		  "",
+		  "}"
+		],
+		"description": "basic skeleton of cpp"
+	  },
+	  "Swap Array CPP": {
+		"prefix": "swaparr",
+		"body": [
+		  "",
+		  "void swap(int arr[], int size){",
+		  "    int i = 0;",
+		  "    while(i<size){",
+		  "        int temp = arr[i];",
+		  "        arr[i] = arr[size-1];",
+		  "        arr[size-1] = temp;",
+		  "        i++;",
+		  "        size--;",
+		  "    }",
+		  "}"
+		],
+		"description": "Swap Array CPP"
+	  }
+}
